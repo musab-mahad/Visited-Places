@@ -20,3 +20,12 @@ h1 {
   margin-bottom: 20px;
   border: 1px solid #ccc;
 }
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
