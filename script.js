@@ -12,3 +12,13 @@ const places = [
   new Place("Nairobi", ["Uhuru Park"], "All year", "Cool weather"),
   new Place("Mombasa", ["Diani Beach"], "Dry season", "Very humid"),
 ];
+
+Place.prototype.getDetails = function () {
+  let details = "";
+  details += "Location: " + this.location;
+  details += "\nLandmarks: " + this.landmarks.join(", ");
+  details += "\nBest time: " + this.season;
+  details += "\nNotes: " + this.notes;
+
+  return details;
+};
