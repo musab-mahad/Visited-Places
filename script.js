@@ -26,3 +26,12 @@ Place.prototype.getDetails = function () {
 // UI LOGIC
 const placesList = document.getElementById("places");
 const details = document.getElementById("details");
+
+for (let i = 0; i < places.length; i++) {
+  const li = document.createElement("li");
+  li.innerText = places[i].location;
+  li.onclick = function () {
+    details.innerText = places[i].getDetails();
+  };
+  placesList.appendChild(li);
+}
