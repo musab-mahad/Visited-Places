@@ -22,3 +22,7 @@ Place.prototype.getDetails = function () {
 
   return details;
 };
+
+// UI LOGIC
+const placesList = document.getElementById("places");
+const details = document.getElementById("details");
