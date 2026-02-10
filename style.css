@@ -29,3 +29,7 @@ li {
   cursor: pointer;
   margin-bottom: 5px;
 }
+
+li:hover {
+  color: brown;
+}
