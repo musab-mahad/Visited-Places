@@ -13,7 +13,8 @@ h1 {
   margin: 0 auto;
 }
 
-#places-section {
+#places-section,
+#details-section {
   background-color: white;
   padding: 15px;
   margin-bottom: 20px;
