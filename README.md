@@ -1,1 +1,1 @@
-# Visited-Places
+# Visited Places
